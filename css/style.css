@@ -7,8 +7,27 @@
     margin: 0 auto;
     text-align: center;
     background-color: beige;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 18%, rgba(255,0,0,1) 54%, rgba(2,0,36,1) 89%);
 }
+
 h2{
     font-family: sans-serif;
     color: aquamarine;
+}
+.textoCentrado2{
+ max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: beige;
+    background: rgb(9,9,121);
+}
+.textoCentrado2 button{
+   transform:skew(-20deg);
+   transition: 3s;
+}
+ 
+.textoCentrado2 button:hover{
+transform: scale(1.5);
+transition: height 4s, width 1s;
 }
