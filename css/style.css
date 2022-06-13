@@ -41,6 +41,15 @@ transition: height 4s, width 1s;
     animation-name: movimientoParrafo3;
     animation-duration: 3s;
 }
+.textoCentrado4{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: beige;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+
 @keyframes movimientoParrafo3{
     0%{
         width: 25px;
