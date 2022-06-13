@@ -21,6 +21,7 @@ h2{
     text-align: center;
     background-color: beige;
     background: rgb(9,9,121);
+    background:radial-gradient(circle, rgba(9,121,54,1) 18%, rgba(0,220,255,1) 54%, rgba(246,154,17,0.9756945014333859) 89%);
 }
 .textoCentrado2 button{
    transform:skew(-20deg);
@@ -30,4 +31,34 @@ h2{
 .textoCentrado2 button:hover{
 transform: scale(1.5);
 transition: height 4s, width 1s;
+}
+.textoCentrado3{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: beige;
+    background: rgb(9,9,121);
+    animation-name: movimientoParrafo3;
+    animation-duration: 3s;
+}
+@keyframes movimientoParrafo3{
+    0%{
+        width: 25px;
+        background-color: aqua;
+    }
+    25%{
+        width: 50px;
+        background-color: aquamarine;
+    }
+    50%{width: 75px;
+        background-color: antiquewhite;
+    }
+    75%{
+        width: 100px;
+        background-color: yellow;
+    }
+    100%{
+        width: 125px;
+        background-color: beige;
+    }
 }
